@@ -1,4 +1,4 @@
-with open("2022/data/input_data.txt","r") as input:
+with open("2022/data/1_input_data.txt","r") as input:
     data = [i.strip() for i in input.readlines()]
 
 total_sums = []
