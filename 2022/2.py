@@ -3,7 +3,7 @@
 #paper = 2 points
 #scissors = 3 points
 
-with open("2022/data/day_two_input_data.txt","r") as input:
+with open("2022/data/2_input_data.txt","r") as input:
     data = [i.strip() for i in input.readlines()]
 
 
