@@ -1,6 +1,7 @@
 import re
 
-def distance(a,b): return abs(a[0]-b[0])+abs(a[1]-b[1])
+def distance(a,b):
+    return abs(a[0]-b[0])+abs(a[1]-b[1])
 def abcd2abr(a,b,c,d): return (a,b,distance((a,b),(c,d)))
 
 max_n = 4000000
